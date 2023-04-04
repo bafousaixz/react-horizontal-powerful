@@ -1,0 +1,180 @@
+/* add css module styles here (optional) */
+._styles-module__wrapper__1I_qj {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__icon__2Vept {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  z-index: 10;
+  opacity: 0.5;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__icon__2Vept:hover {
+  opacity: 1;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__iconLeft__21teQ {
+  left: 1rem;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__iconRight__F9bfP {
+  right: 1rem;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__slideShow__X--x2 {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 150px);
+  background-color: blue;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__slideShow__X--x2 ._styles-module__banner__3Y9D2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 150px);
+  background-size: cover;
+  background-position: top;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__slideShow__X--x2 ._styles-module__bannerMark__2SgDB {
+  position: absolute;
+  top: 55%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  min-width: 600px;
+  max-width: 730px;
+  background: rgba(2, 2, 2, .4);
+  border-radius: 8px;
+  padding: 3rem 4.5rem;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  transition: 0.3s;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__slideShow__X--x2 ._styles-module__bannerMark__2SgDB ._styles-module__bntArea__23Pn0 {
+  margin-top: 2rem;
+  width: auto;
+  max-width: 294px;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__slideShow__X--x2 ._styles-module__bannerTitle__1zF7X {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+  white-space: pre;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__slideShow__X--x2 ._styles-module__banner__3Y9D2 p {
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__slideShow__X--x2 ._styles-module__banner__3Y9D2 p a {
+  color: #fff;
+  cursor: pointer;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  ._styles-module__wrapper__1I_qj ._styles-module__slideShow__X--x2 ._styles-module__banner__3Y9D2 ._styles-module__BannerMark__3mm4D {
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background: rgba(2, 2, 2, 0.4);
+  }
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__dotArea__2F6OO {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 7;
+  width: 100vw;
+  margin: 0;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__dotArea__2F6OO ._styles-module__dot__3U2py {
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #4f4f4f;
+  border-radius: 100%;
+  border: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+._styles-module__wrapper__1I_qj ._styles-module__dotArea__2F6OO ._styles-module__selected__2tiFr {
+  background-color: #fff;
+}
+
+._styles-module__show__2crlL {
+  animation: _styles-module__show__2crlL 1.5s ease both;
+}
+
+._styles-module__hide__3y8LI {
+  animation: _styles-module__hide__3y8LI 1.5s ease both;
+}
+
+@keyframes _styles-module__show__2crlL {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes _styles-module__hide__3y8LI {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  ._styles-module__bannerMark__2SgDB {
+    padding: 3rem 2rem;
+    left: 50% !important;
+    width: 90% !important;
+    max-width: unset !important;
+    min-width: unset !important;
+  }
+
+  ._styles-module__bannerTitle__1zF7X {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  ._styles-module__bannerMark__2SgDB {
+    padding: 2rem !important;
+    width: 95%;
+    top: 45% !important;
+    left: 50%;
+  }
+
+  ._styles-module__bannerTitle__1zF7X {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+    white-space: break-spaces !important;
+  }
+}
