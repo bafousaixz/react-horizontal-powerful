@@ -77,7 +77,7 @@ var ExampleComponent = function ExampleComponent(props) {
     onClick: function onClick() {
       return setIndex(index === values.length - 1 ? 0 : index + 1);
     },
-    "aria-label": "Ti\u1EBFp theo"
+    "aria-label": "Ti\u1EBFp theo "
   }, nextIconCustom || nextIcon), React.createElement("ul", {
     className: styles.dotArea
   }, [].concat(Array(values.length)).map(function (_, idx) {

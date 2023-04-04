@@ -62,7 +62,7 @@ const ExampleComponent = props => {
   }))), values.length > 1 && createElement("button", {
     className: `${styles.iconRight} ${styles.icon}`,
     onClick: () => setIndex(index === values.length - 1 ? 0 : index + 1),
-    "aria-label": 'Ti\u1EBFp theo'
+    "aria-label": 'Ti\u1EBFp theo '
   }, nextIconCustom || nextIcon), createElement("ul", {
     className: styles.dotArea
   }, [...Array(values.length)].map((_, idx) => createElement("li", {

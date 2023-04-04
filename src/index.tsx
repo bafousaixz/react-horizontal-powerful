@@ -65,7 +65,7 @@ export const ExampleComponent = (props: Props) => {
         <button
           className={`${styles.iconRight} ${styles.icon}`}
           onClick={() => setIndex(index === values.length - 1 ? 0 : index + 1)}
-          aria-label='Tiếp theo'
+          aria-label='Tiếp theo '
         >
           {nextIconCustom || nextIcon}
         </button>
